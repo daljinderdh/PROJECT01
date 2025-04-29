@@ -17,7 +17,7 @@ fi
 HOSTN=$(echo ${HOSTN} | tr -d ' ')
 
 if [ -z "${HOSTN}" ]; then
-echo " usage sh scp_fls.sh hostname "
+echo " usage sh scp_build_files.sh hostname "
 exit;
 fi
 
